@@ -106,7 +106,7 @@ namespace MusicInstrumentLibr
         }
 
         //реализация IComparable для сортировки по имени
-        public int CompareTo(object obj)
+        public virtual int CompareTo(object obj)
         {
             if (obj is MusicInstrument other)
             {
