@@ -39,7 +39,7 @@ namespace MusicInstrumentLibr
 
         public override string ToString()
         {
-            return "Id: " + number.ToString();
+            return number.ToString();
         }
 
         public override bool Equals(object obj)
